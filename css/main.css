@@ -39,34 +39,45 @@ header .header-icons-container .icons span {
   color: white;
   font-size: 35px;
 }
+header .header-icons-container .icons span:hover {
+  color: white;
+  font-size: 45px;
+}
 nav {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  height: 90px;
+  height: 60px;
 }
 nav .nav-logo-container {
   margin-left: 50px;
 }
 nav .nav-logo-container img {
-  margin-top: 10px;
-  width: 150px;
+  margin-top: 0px;
+  width: 120px;
 }
 nav .profile-link {
   display: flex;
   align-items: center;
   justify-content: flex-end;
   margin-right: 50px;
+  font-family: "Roboto";
+}
+nav .profile-link a:hover {
+  background-color: #96f0d9;
+  border-radius: 5px;
+  width: 120px;
 }
 nav .profile-link a {
   color: black;
   border-bottom: 1px solid black;
   font-size: larger;
 }
-main {
+main .main-container {
   background-image: url(https://images.pexels.com/photos/4665064/pexels-photo-4665064.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
-  height: auto;
+  height: 100%;
   background-repeat: none;
   background-size: cover;
+  background-position: center;
 }
 main .main-title-container {
   display: grid;
@@ -74,21 +85,34 @@ main .main-title-container {
   justify-items: center;
 }
 main .main-title {
-  margin: 100px;
   font-family: "Roboto";
   font-size: 3rem;
   font-weight: bold;
   color: white;
+  text-align: center;
+  margin-top: 75px;
 }
 main .main-button-container {
   display: grid;
   align-items: center;
   justify-items: center;
 }
+main {
+  height: 100%;
+}
 main .main-button {
   background-color: #47cfac;
   border: 0px;
   height: 30px;
+  width: 175px;
   font-weight: bold;
-  margin-bottom: 200px;
+  margin-top: 30px;
+  border-radius: 9px;
+}
+main .main-button:hover {
+  background-color: #96f0d9;
+}
+main .main-button a {
+  font-size: 19px;
+  font-family: "Roboto";
 }
