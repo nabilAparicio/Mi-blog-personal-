@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+a {
+  text-decoration: none;
+  display: inline;
+  color: black;
+}
+
+header {
+  width: 100%;
+  height: 140px;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+header .header-icons-container {
+  width: 100%;
+  height: 50px;
+  background-color: #47cfac;
+  display: grid;
+}
+header .header-icons-container .icons {
+  width: 300px;
+  height: auto;
+  display: flex;
+  justify-items: flex-end;
+  align-items: center;
+  justify-content: space-between;
+  justify-self: end;
+  margin-right: 50px;
+}
+header .header-icons-container .icons span {
+  color: white;
+  font-size: 35px;
+}
+nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 90px;
+}
+nav .nav-logo-container {
+  margin-left: 50px;
+}
+nav .nav-logo-container img {
+  margin-top: 10px;
+  width: 150px;
+}
+nav .profile-link {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 50px;
+}
+nav .profile-link a {
+  color: black;
+  border-bottom: 1px solid black;
+  font-size: larger;
+}
+main {
+  background-image: url(https://images.pexels.com/photos/4665064/pexels-photo-4665064.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  height: auto;
+  background-repeat: none;
+  background-size: cover;
+}
+main .main-title-container {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+}
+main .main-title {
+  margin: 100px;
+  font-family: "Roboto";
+  font-size: 3rem;
+  font-weight: bold;
+  color: white;
+}
+main .main-button-container {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+}
+main .main-button {
+  background-color: #47cfac;
+  border: 0px;
+  height: 30px;
+  font-weight: bold;
+  margin-bottom: 200px;
+}
