@@ -100,7 +100,7 @@ main .main-button-container {
   align-items: center;
   justify-items: center;
 }
-main .super-main-container {
+#super-main-container {
   height: 100%;
 }
 main .main-button {
