@@ -220,6 +220,7 @@ footer p {
   background-color: #e6e9ed;
   display: grid;
   grid-template-columns: 1fr 3fr 3fr 1fr;
+  gap: 15px;
 }
 .contact-main-container .contact-left {
   grid-column: 2;
@@ -232,8 +233,7 @@ footer p {
   width: 90px;
 }
 .contact .contact-text-container {
-  padding: 10px;
-  margin: 5px;
+  margin: 10px;
 }
 .contact .contact-text-container a {
   border-bottom: 1px solid black;
@@ -244,9 +244,6 @@ footer p {
   width: 120px;
   padding: 5px;
   text-align: center;
-}
-.contact .contact-text-container p {
-  padding-right: 90px;
 }
 
 /* estilos del perfil*/

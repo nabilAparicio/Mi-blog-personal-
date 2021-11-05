@@ -42,4 +42,10 @@
   .perfil-posts-container .post-container {
     max-width: 95%;
   }
+  .contact-main-container {
+    display: block;
+  }
+  .contact-main-container .contact {
+    margin-top: 20px;
+  }
 }
