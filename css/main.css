@@ -146,16 +146,11 @@ main .main-button a {
 .blogs-news-img-container img {
   width: 85%;
 }
-.blogs-news-info-container {
-  grid-column: 2;
-}
 .blogs-news-info-container p {
   margin-bottom: 35px;
 }
 .blogs-posts-container {
   padding: 0 50px 40px;
-}
-.blogs-posts-container div {
 }
 .blogs-posts-container h3 {
   border-bottom: 1px solid #e6e9ed;
@@ -274,16 +269,11 @@ footer p {
 .perfil-news-img-container img {
   width: 85%;
 }
-.perfil-news-info-container {
-  grid-column: 2;
-}
 .perfil-news-info-container p {
   margin-bottom: 35px;
 }
 .perfil-posts-container {
   padding: 0 50px 40px;
-}
-.perfil-posts-container div {
 }
 .perfil-posts-container h3 {
   border-bottom: 1px solid #e6e9ed;
