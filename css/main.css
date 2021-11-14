@@ -109,7 +109,7 @@ main .main-button-container {
 #super-main-container {
   height: 100%;
 }
-main .main-button {
+/* main .main-button {
   background-color: #47cfac;
   border: 0px;
   height: 30px;
@@ -120,10 +120,50 @@ main .main-button {
 }
 main .main-button:hover {
   background-color: #96f0d9;
+} */
+.main-button {
+  padding: 0.9em 2em;
+  border: 2px solid #96f0d9;
+  position: relative;
+  overflow: hidden;
+  background-color: gray;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 16px;
+  color: #ddd;
+  transition: 0.3s;
+  z-index: 1;
+  font-family: inherit;
+  color: #96f0d9;
 }
+
+.main-button::before {
+  content: "";
+  width: 0;
+  height: 300%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  background: #96f0d9;
+  transition: 0.5s ease;
+  display: block;
+  z-index: -1;
+}
+
+.main-button:hover::before {
+  width: 105%;
+}
+
+.main-button:hover {
+  color: #111;
+}
+
 main .main-button a {
   font-size: 19px;
   font-family: "Roboto";
+  color: white;
+  font-weight: bold;
 }
 
 /* estilos de blogs.html*/
